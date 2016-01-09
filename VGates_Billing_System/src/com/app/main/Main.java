@@ -5,13 +5,16 @@
  */
 package com.app.main;
 
+import com.app.ui.main.MainWindow;
+
 /**
  *
- * @author User
+ * @author Asel
  */
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("V Gates Billing");
+        MainWindow mainWindow= new MainWindow();
+        mainWindow.setVisible(true);
     }
 }
